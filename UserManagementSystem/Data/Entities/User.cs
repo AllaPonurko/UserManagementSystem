@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace UserManagementSystem.Data.Entities
 { 
-    {
+   [Serializable]
         /// <summary>
         /// Сущность пользователя системы
         /// </summary>
@@ -25,6 +25,6 @@ namespace UserManagementSystem.Data.Entities
                 return Name;
             }
         }
-    }
+    
 
 }
